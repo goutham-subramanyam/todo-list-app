@@ -1,0 +1,20 @@
+.nt-scrollable {
+  flex-grow: 1;
+  overflow-y: auto;
+  height: calc(100vh - #{$main-header-height});
+
+  &.nt-scrollable--viewport {
+    height: 100vh;
+  }
+}
+
+.nt-container {
+  width: 100%;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.nui-modal__wrapper--task {
+  width: 600px !important;
+  overflow: visible !important;
+}

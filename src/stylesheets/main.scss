@@ -1,0 +1,17 @@
+@import "abstracts/variables";
+
+@import "vendors/tailwind";
+@import "vendors/toastify";
+
+@import "base/reset";
+
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/common";
+
+@import "components/datepicker";
+
+input,
+textarea {
+  box-shadow: none !important;
+}

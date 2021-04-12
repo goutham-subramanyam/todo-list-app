@@ -1,0 +1,10 @@
+.nt-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  min-height: $main-header-height;
+  border: thin solid theme("colors.gray.200");
+}
